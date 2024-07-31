@@ -25,7 +25,7 @@ module.exports = {
       name: '@electron-forge/maker-squirrel',
       config: {
         loadingGif: "./install.gif",
-        setupIcon: "./warbaby.ico"
+        setupIcon: "https://raw.githubusercontent.com/TimeCrunch101/electron-test-app/master/warbaby.ico"
       },
     },
     {
