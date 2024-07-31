@@ -17,12 +17,16 @@ module.exports = {
   ],
   packagerConfig: {
     asar: true,
+    icon: "./warbaby.ico"
   },
   rebuildConfig: {},
   makers: [
     {
       name: '@electron-forge/maker-squirrel',
-      config: {},
+      config: {
+        loadingGif: "./install.gif",
+        setupIcon: "./warbaby.ico"
+      },
     },
     {
       name: '@electron-forge/maker-zip',
