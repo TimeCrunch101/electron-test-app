@@ -17,8 +17,7 @@ module.exports = {
   ],
   packagerConfig: {
     asar: true,
-    icon: "./warbaby.ico",
-    setupIcon: "https://raw.githubusercontent.com/TimeCrunch101/electron-test-app/master/warbaby.ico"
+    icon: "./warbaby.ico"
   },
   rebuildConfig: {},
   makers: [
@@ -26,6 +25,10 @@ module.exports = {
       name: '@electron-forge/maker-squirrel',
       config: {
         loadingGif: "./install.gif",
+        iconUrl: "https://raw.githubusercontent.com/TimeCrunch101/electron-test-app/master/warbaby.ico",
+        name: "Electron Test App",
+        exe: "electrontestapp.exe",
+        setupExe: "electrontestapp-setup.exe",
       },
     },
     {
