@@ -17,7 +17,7 @@ module.exports = {
   ],
   packagerConfig: {
     asar: true,
-    icon: "./warbaby.ico"
+    icon: "./warbaby.ico",
   },
   rebuildConfig: {},
   makers: [
@@ -26,9 +26,10 @@ module.exports = {
       config: {
         loadingGif: "./install.gif",
         iconUrl: "https://raw.githubusercontent.com/TimeCrunch101/electron-test-app/master/warbaby.ico",
-        name: "Electron Test App",
-        exe: "electrontestapp.exe",
-        setupExe: "electrontestapp-setup.exe",
+        setupIcon: "./warbaby.ico",
+        name: "aaronAllen.electronTestApp",
+        setupExe: "electronTestApp-setup.exe",
+        exe: "Electron Test App.exe",
       },
     },
     {

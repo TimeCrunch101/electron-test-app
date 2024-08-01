@@ -1,6 +1,7 @@
 {
   "name": "electron-test-app",
-  "version": "2.0.6",
+  "productName": "Electron Test App",
+  "version": "2.0.7",
   "description": "This is a test app built with Electron.",
   "main": "main.js",
   "scripts": {
